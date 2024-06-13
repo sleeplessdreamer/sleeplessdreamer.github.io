@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dani Qira - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-image: linear-gradient(to right, #ff4e50, #fc913a, #f9d423, #1ac923, #5435dd, #a347e0,#eaeaea);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1, h2 {
+            margin: 10px 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        .repo-list, .music-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .repo-list li, .music-list li {
+            margin-bottom: 10px;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Dani Qira's Portfolio</h1>
+        <p>Computer Science + Music and Technology Student | Passionate about Technology, Music, and Public Policy</p>
+    </header>
+    <div class="container">
+        <h2>About Me</h2>
+        <p>Hi, I'm Dani! I'm currently pursuing dual degrees in Computer Science and Music and Technology at Stevens Institute of Technology. I'm fascinated by the intersection of technology and society, and I'm passionate about creating innovative solutions that have a positive impact on the world. In my free time, I love making music and exploring creative ways to engage with others through interactive websites.</p>
+        <p>Feel free to reach out if you want to chat!</p>
+        
+        <h2>GitHub Repositories</h2>
+        <ul class="repo-list">
+            <!-- Replace the example repositories with your own -->
+            <li><a href="https://github.com/daniqira/project1">Project 1</a> - Description of Project 1</li>
+            <li><a href="https://github.com/daniqira/project2">Project 2</a> - Description of Project 2</li>
+            <!-- Add more repositories as needed -->
+        </ul>
+
+        <h2>Personal Music</h2>
+        <ul class="music-list">
+            <!-- Replace the example music links with your own -->
+            <li><a href="https://soundcloud.com/daniqira/song1">Song 1</a> - Description of Song 1</li>
+            <li><a href="https://soundcloud.com/daniqira/song2">Song 2</a> - Description of Song 2</li>
+            <!-- Add more music links as needed -->
+        </ul>
+    </div>
+</body>
+</html>
